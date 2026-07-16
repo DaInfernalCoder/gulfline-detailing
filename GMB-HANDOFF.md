@@ -48,15 +48,19 @@ Build and launch a polished, call-led mobile auto detailing website and Google B
 - [x] Source and record licensed imagery.
 - [x] Build the static site.
 - [x] Run preflight and browser QA at desktop and phone widths.
-- [ ] Initialize git and commit `main`.
-- [ ] Re-authenticate GitHub CLI, create a dedicated repository, and push.
-- [ ] Deploy through Vercel and connect GitHub.
+- [x] Initialize git and commit `main`.
+- [x] Re-authenticate GitHub CLI, create a dedicated repository, and push.
+- [x] Deploy through Vercel and connect GitHub.
 - [ ] Attach apex and `www`, configure DNS, and verify HTTPS.
-- [ ] Build and validate the final GMB asset pack.
+- [x] Build and validate the final GMB asset pack.
 
 ## Current state
 
 Phone and brand are locked. The static site is built with licensed local photography and copied to the permanent project folder. Static preflight passes. Browser QA passes at 1440×1000 and 390×844 with one H1, no missing images, no JavaScript or console errors, no horizontal overflow, a readable opaque header, a working mobile menu, and a contained two-button mobile bar. Public prose passed the required trigger-word audit after two passes.
+
+GitHub repository `DaInfernalCoder/gulfline-detailing` is connected to Vercel project `gulfline-detailing` for push deploys. Production deployment `dpl_GnxJQhj4m2SY15tgCgYVesWjMq85` is `READY` and aliased to `https://gulfline-detailing.vercel.app`.
+
+The validated GMB pack is saved at `/Users/sumit/Documents/gmb/Gulfline Mobile Auto Detailing Houston Texas` with one 1200×1200 logo PNG, four unique 16:9 cover JPGs, four unique business JPGs, a 644-character description, and complete source/license notes.
 
 ## Blockers
 
@@ -65,4 +69,4 @@ Phone and brand are locked. The static site is built with licensed local photogr
 
 ## Exact next action
 
-Sync the final QA edits to the permanent folder, initialize `main`, and create the local launch commit. Once Spaceship credentials are supplied, check the exact domain price and request purchase approval.
+Once Spaceship credentials are supplied, check the exact `gulflinedetailing.shop` price and request purchase approval. After approval, register it with privacy enabled and auto-renew off, attach apex and `www`, delegate DNS, and verify the real-domain HTTPS content.
