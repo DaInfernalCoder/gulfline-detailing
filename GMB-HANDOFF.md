@@ -42,8 +42,8 @@ Build and launch a polished, call-led mobile auto detailing website and Google B
 - [x] Define and critique the design direction.
 - [x] Retrieve Spaceship API credentials from macOS Keychain.
 - [x] Check `gulflinedetailing.shop` availability and exact price through Spaceship.
-- [ ] Obtain explicit approval for the exact domain and price.
-- [ ] Register with high privacy and auto-renew off.
+- [x] Obtain explicit approval for the exact domain and price.
+- [x] Register with high privacy and auto-renew off.
 - [x] Save this handoff in the permanent project folder.
 - [x] Source and record licensed imagery.
 - [x] Build the static site.
@@ -62,12 +62,14 @@ GitHub repository `DaInfernalCoder/gulfline-detailing` is connected to Vercel pr
 
 The validated GMB pack is saved at `/Users/sumit/Documents/gmb/Gulfline Mobile Auto Detailing Houston Texas` with one 1200×1200 logo PNG, four unique 16:9 cover JPGs, four unique business JPGs, a 644-character description, and complete source/license notes.
 
-Spaceship credentials were found in the Keychain entries specified by the make-gmb skill. The live Spaceship API reports `gulflinedetailing.shop` as available and non-premium. Spaceship's current first-year `.shop` registration price is $0.70 plus the mandatory $0.20 ICANN fee, for a $0.90 domain charge. Registration is waiting on explicit approval.
+Spaceship credentials were found in the Keychain entries specified by the make-gmb skill. The live Spaceship API reported `gulflinedetailing.shop` as available and non-premium. Spaceship's first-year `.shop` registration price was $0.70 plus the mandatory $0.20 ICANN fee, for a $0.90 domain charge.
+
+Sumit approved the purchase and `gulflinedetailing.shop` was registered successfully through Spaceship through July 16, 2027. High privacy is active and auto-renew is off. The apex and `www` hosts are attached to the Vercel project, and Spaceship is configured with `ns1.vercel-dns.com` and `ns2.vercel-dns.com`.
 
 ## Blockers
 
-- Explicit approval is required before purchasing `gulflinedetailing.shop` for $0.90.
+- The new `.shop` registry delegation is still propagating. Public resolvers currently return `NXDOMAIN` even though Spaceship shows the correct custom nameservers.
 
 ## Exact next action
 
-After approval, register `gulflinedetailing.shop` for one year with high privacy and auto-renew off, attach apex and `www`, configure DNS, and verify the real-domain HTTPS content.
+Poll the `.shop` parent delegation until Vercel's nameservers are public, then verify apex and `www` through Vercel and run the live HTTPS content checks.
