@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title id="title">Gulfline logo</title>
+  <rect width="120" height="120" rx="8" fill="#f2f1ea"/>
+  <path d="M28 29h64v18H50c-8 0-14 6-14 14s6 14 14 14h23V63H57V50h35v43H50C32 93 18 79 18 61s14-32 32-32Z" fill="#071b25"/>
+  <path d="M18 80c19-9 35-9 50 0 15 9 30 9 45 0v13c-15 9-30 9-45 0-15-9-31-9-50 0Z" fill="#0d7482"/>
+  <rect x="18" y="99" width="84" height="7" fill="#f4b942"/>
+</svg>
