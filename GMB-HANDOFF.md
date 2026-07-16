@@ -40,8 +40,8 @@ Build and launch a polished, call-led mobile auto detailing website and Google B
 - [x] Confirm Houston, Texas and phone number.
 - [x] Screen the Gulfline name for local and same-category conflicts.
 - [x] Define and critique the design direction.
-- [ ] Retrieve Spaceship API credentials from Sumit.
-- [ ] Check `gulflinedetailing.shop` availability and exact price through Spaceship.
+- [x] Retrieve Spaceship API credentials from macOS Keychain.
+- [x] Check `gulflinedetailing.shop` availability and exact price through Spaceship.
 - [ ] Obtain explicit approval for the exact domain and price.
 - [ ] Register with high privacy and auto-renew off.
 - [x] Save this handoff in the permanent project folder.
@@ -62,11 +62,12 @@ GitHub repository `DaInfernalCoder/gulfline-detailing` is connected to Vercel pr
 
 The validated GMB pack is saved at `/Users/sumit/Documents/gmb/Gulfline Mobile Auto Detailing Houston Texas` with one 1200×1200 logo PNG, four unique 16:9 cover JPGs, four unique business JPGs, a 644-character description, and complete source/license notes.
 
+Spaceship credentials were found in the Keychain entries specified by the make-gmb skill. The live Spaceship API reports `gulflinedetailing.shop` as available and non-premium. Spaceship's current first-year `.shop` registration price is $0.70 plus the mandatory $0.20 ICANN fee, for a $0.90 domain charge. Registration is waiting on explicit approval.
+
 ## Blockers
 
-- Spaceship API key and secret are missing from macOS Keychain, so live registrar pricing and registration cannot proceed.
-- GitHub CLI's saved token is invalid and will need re-authentication before repository publication.
+- Explicit approval is required before purchasing `gulflinedetailing.shop` for $0.90.
 
 ## Exact next action
 
-Once Spaceship credentials are supplied, check the exact `gulflinedetailing.shop` price and request purchase approval. After approval, register it with privacy enabled and auto-renew off, attach apex and `www`, delegate DNS, and verify the real-domain HTTPS content.
+After approval, register `gulflinedetailing.shop` for one year with high privacy and auto-renew off, attach apex and `www`, configure DNS, and verify the real-domain HTTPS content.
