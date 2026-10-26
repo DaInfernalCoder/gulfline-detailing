@@ -8,7 +8,7 @@ Dependency-free marketing site for a Houston, Texas mobile auto detailing servic
 - Booking: https://cal.com/sumitdatta/auto-detail-service
 - Service area: Houston, Texas
 - Public street address: not listed
-- Proposed domain: `gulflinedetailing.shop` pending availability, price check, and approval
+- Proposed domain: `houstoncardetailingluxury.shop` pending availability, price check, and approval
 
 ## Local preview
 

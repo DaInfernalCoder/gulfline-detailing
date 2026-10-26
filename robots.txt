@@ -13,4 +13,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://gulflinedetailing.shop/sitemap.xml
+Sitemap: https://houstoncardetailingluxury.shop/sitemap.xml

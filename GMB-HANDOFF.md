@@ -12,7 +12,7 @@ Build and launch a polished, call-led mobile auto detailing website and Google B
 - Street address: 2211 Augusta Dr, Houston, TX 77057
 - Phone: +1 346-509-5621
 - Booking link: https://cal.com/sumitdatta/auto-detail-service
-- Proposed domain: `gulflinedetailing.shop`
+- Proposed domain: `houstoncardetailingluxury.shop`
 - Domain registration settings when approved: one year, high privacy with consent, `autoRenew: false`
 
 ## Decisions and truth constraints
@@ -42,7 +42,7 @@ Build and launch a polished, call-led mobile auto detailing website and Google B
 - [x] Screen the Gulfline name for local and same-category conflicts.
 - [x] Define and critique the design direction.
 - [x] Retrieve Spaceship API credentials from macOS Keychain.
-- [x] Check `gulflinedetailing.shop` availability and exact price through Spaceship.
+- [x] Check `houstoncardetailingluxury.shop` availability and exact price through Spaceship.
 - [x] Obtain explicit approval for the exact domain and price.
 - [x] Register with high privacy and auto-renew off.
 - [x] Save this handoff in the permanent project folder.
@@ -63,9 +63,9 @@ GitHub repository `DaInfernalCoder/gulfline-detailing` is connected to Vercel pr
 
 The validated GMB pack is saved at `/Users/sumit/Documents/gmb/Gulfline Mobile Auto Detailing Houston Texas` with one 1200×1200 logo PNG, four unique 16:9 cover JPGs, four unique business JPGs, a 644-character description, and complete source/license notes.
 
-Spaceship credentials were found in the Keychain entries specified by the make-gmb skill. The live Spaceship API reported `gulflinedetailing.shop` as available and non-premium. Spaceship's first-year `.shop` registration price was $0.70 plus the mandatory $0.20 ICANN fee, for a $0.90 domain charge.
+Spaceship credentials were found in the Keychain entries specified by the make-gmb skill. The live Spaceship API reported `houstoncardetailingluxury.shop` as available and non-premium. Spaceship's first-year `.shop` registration price was $0.70 plus the mandatory $0.20 ICANN fee, for a $0.90 domain charge.
 
-Sumit approved the purchase and `gulflinedetailing.shop` was registered successfully through Spaceship through July 16, 2027. High privacy is active and auto-renew is off. The apex and `www` hosts are attached to the Vercel project, and Spaceship is configured with `ns1.vercel-dns.com` and `ns2.vercel-dns.com`.
+Sumit approved the purchase and `houstoncardetailingluxury.shop` was registered successfully through Spaceship through July 16, 2027. High privacy is active and auto-renew is off. The apex and `www` hosts are attached to the Vercel project, and Spaceship is configured with `ns1.vercel-dns.com` and `ns2.vercel-dns.com`.
 
 ## Blockers
 

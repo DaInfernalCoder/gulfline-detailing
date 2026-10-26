@@ -2,14 +2,14 @@
 > Appointment-based mobile vehicle detailing with truth-checked service pages.
 
 ## Main pages
-- [Home](https://gulflinedetailing.shop/)
-- [Services](https://gulflinedetailing.shop/services/)
-- [Interior Car Detailing](https://gulflinedetailing.shop/services/interior-car-detailing/)
-- [Exterior Car Detailing](https://gulflinedetailing.shop/services/exterior-car-detailing/)
-- [Mobile Car Wash](https://gulflinedetailing.shop/services/mobile-car-wash/)
-- [Headlight Restoration & Polishing](https://gulflinedetailing.shop/services/headlight-restoration/)
-- [About](https://gulflinedetailing.shop/about/)
-- [Contact](https://gulflinedetailing.shop/contact/)
+- [Home](https://houstoncardetailingluxury.shop/)
+- [Services](https://houstoncardetailingluxury.shop/services/)
+- [Interior Car Detailing](https://houstoncardetailingluxury.shop/services/interior-car-detailing/)
+- [Exterior Car Detailing](https://houstoncardetailingluxury.shop/services/exterior-car-detailing/)
+- [Mobile Car Wash](https://houstoncardetailingluxury.shop/services/mobile-car-wash/)
+- [Headlight Restoration & Polishing](https://houstoncardetailingluxury.shop/services/headlight-restoration/)
+- [About](https://houstoncardetailingluxury.shop/about/)
+- [Contact](https://houstoncardetailingluxury.shop/contact/)
 
 ## Verified identity
 - Address: 2211 Augusta Dr, Houston, TX 77057
