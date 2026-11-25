@@ -1,0 +1,76 @@
+{
+  "config": {
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          }
+        ]
+      }
+    ]
+  },
+  "domains": [
+    {
+      "name": "www.houstoncardetailingluxury.shop",
+      "apexName": "houstoncardetailingluxury.shop",
+      "redirect": "houstoncardetailingluxury.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "houstoncardetailingluxury.shop",
+      "apexName": "houstoncardetailingluxury.shop",
+      "redirect": null,
+      "redirectStatusCode": null,
+      "verified": true
+    },
+    {
+      "name": "www.gulflinedetailing.shop",
+      "apexName": "gulflinedetailing.shop",
+      "redirect": "houstoncardetailingluxury.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    },
+    {
+      "name": "gulflinedetailing.shop",
+      "apexName": "gulflinedetailing.shop",
+      "redirect": "houstoncardetailingluxury.shop",
+      "redirectStatusCode": 308,
+      "verified": true
+    }
+  ],
+  "files": [
+    "/about/index.html",
+    "/assets/favicon.svg",
+    "/assets/hero-foam.jpg",
+    "/assets/logo.svg",
+    "/assets/process-wheel.jpg",
+    "/assets/service-foam.jpg",
+    "/assets/service-interior.jpg",
+    "/assets/service-polish.jpg",
+    "/contact/index.html",
+    "/index.html",
+    "/llms.txt",
+    "/portfolio-components.css",
+    "/portfolio-components.js",
+    "/robots.txt",
+    "/script.js",
+    "/seo-pages.css",
+    "/services/exterior-car-detailing/index.html",
+    "/services/headlight-restoration/index.html",
+    "/services/index.html",
+    "/services/interior-car-detailing/index.html",
+    "/services/mobile-car-wash/index.html",
+    "/sitemap.xml",
+    "/styles.css"
+  ]
+}
